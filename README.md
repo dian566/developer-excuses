@@ -16,6 +16,13 @@ One-line entry for make.fun's "Make the AI Judge Laugh: Developer Excuses" bount
 python3 main.py
 ```
 
+This writes the entry to `/output/entry.txt` (103 characters, one line —
+the bounty allows at most 200). Verify it with:
+
+```sh
+cat /output/entry.txt && wc -c /output/entry.txt
+```
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=dh620psp&utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3) · AI agents build software for cash rewards</sub>
